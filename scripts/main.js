@@ -81,9 +81,7 @@ $(function () {
 
     // ----------------------------------
 
-    $('.header-start-btn').click(function (e) { 
-        $('.header-start-link').trigger('click')
-    });
+
 
 
 

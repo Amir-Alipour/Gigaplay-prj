@@ -358,6 +358,9 @@ body::-webkit-scrollbar-thumb {
     margin-left: -40px;
 }
 
+.about-us-part{
+    z-index: 5;
+}
 
 .about-us-part h1{
     position: absolute;
@@ -395,7 +398,20 @@ body::-webkit-scrollbar-thumb {
     background: none;
 }
 
-.Shadower-section {
+.album-section {
+    position: relative;
+    top: 1400px;
     width: 100%;
     height: 100vh;
+    background: #0b1321;
+}
+
+.footer-grad {
+    width: 100%;
+    background: #000;
+    height: 300px;
+    bottom: -125px;
+    left: 0;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0),rgba(11,19,33,0.8));
 }
