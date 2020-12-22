@@ -18,9 +18,15 @@ $(function () {
     })
 
 
+    $(window).on('scroll',function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 1523){
+            $('.main-bg').css('position','absolute');
+            $('.main-bg').css('bottom','0');
+        }
+    })
 
-
-
+    1523
 
 
 
