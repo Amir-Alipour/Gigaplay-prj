@@ -6,12 +6,26 @@
     font-family: 'Poppins',sans-serif;
 }
 
+body::-webkit-scrollbar{
+    background: #fff;
+    width: 16px;
+}
+body::-webkit-scrollbar-track {
+    background: #a3eee9;
+}
+body::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 16px;
+    border: 3px solid #a3eee9;
+}
+
 .main-bg {
     width: 100%;
     height: 100vh;
     background: url(../images/main-bg.webp);
     background-size: cover;
     position: fixed;
+    z-index: -10;
 }
 
 .header-title {
@@ -62,6 +76,7 @@
     align-items: center;
     border-radius: 15px;
     transition: all 0.5s;
+    z-index: 1000;
 }
 
 .nav-main-items {
@@ -78,6 +93,7 @@
     overflow: hidden;
     display: none;
     opacity: 0;
+    z-index: 1000;
 }
 
 .nav-main-items .nav-main-item {
@@ -95,11 +111,15 @@
 
 .header-logo {
     position: relative;
-    top: 20px;
+    top: 40px;
     left: 20px;
-    height: 95px;
+    height: 48px;
     overflow: hidden;
     width: 150px;
+    
+}
+.header-logo img {
+    width: 50px;
 }
 
 .header-name {
@@ -107,7 +127,85 @@
     color: #fff;
     font-family: arial;
     font-weight: bold;
-    top: -50px;
-    left: 130px;
+    top: -20px;
+    left: 90px;
     width: 100px;
 }
+
+#card-featued {
+    position: relative;
+    top: 900px;
+    color: #fff;
+}
+
+.befor-ellip {
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(40deg,#2196f3,#e91e63);
+    position: fixed;
+    border-radius: 50%;
+    right: 60px;
+    top: 350px;
+    z-index: -1;
+}
+
+#card-featued>h2{
+    margin-bottom: 30px;
+    color: #a3eee9;
+}
+
+.card-featuredbody{
+    padding: 10px;
+}
+
+
+#card-featued video {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    border-radius: 15px;
+}
+
+.card-featuredbody {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.card-featuredbody h2 {
+    font-size: 4rem;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.card-featuredbody p {
+    line-height: 25px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+} 
+
+.card-featuredbody button {
+    color: rgba(255, 255, 255, 0.3);
+    padding: 8px 20px;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: none;
+    transition: all 0.4s;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.card-featuredbody button:hover {
+    border: 2px solid #a3eee9;
+    color: #000;
+    background: #a3eee9;
+}
+
+footer-of-header
