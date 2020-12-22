@@ -1,5 +1,8 @@
 $(function () {
     AOS.init();
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 
     var nav_menu_counter = 0;
     $('.nav-main').click(function () {
@@ -26,16 +29,16 @@ $(function () {
         var scroll = $(window).scrollTop();
 
         // lock the card on scroll
-        if(scroll > 925){
-            $('#card-featued').css('position','fixed');
-            $('#card-featued').css('top','100px');
-            $('#card-featued').css('right','109px');
-            $('#card-featued').css('width','488px');
+        if (scroll > 925) {
+            $('#card-featued').css('position', 'fixed');
+            $('#card-featued').css('top', '100px');
+            $('#card-featued').css('right', '109px');
+            $('#card-featued').css('width', '488px');
             $('#footer-of-header').css('margin-top', '500px');
-        }else{
+        } else {
             $('#card-featued').removeAttr('style');
-            $('#card-featued').css('position','relative');
-            $('#card-featued').css('top','900px');
+            $('#card-featued').css('position', 'relative');
+            $('#card-featued').css('top', '900px');
             $('#footer-of-header').css('margin-top', '0');
         }
 
@@ -62,20 +65,20 @@ $(function () {
         }
 
         // featured car go up whit scroll
-        if(scroll > 1781){
+        if (scroll > 1781) {
             $('#card-featued').removeAttr('style');
-            $('#card-featued').css('position','absolute');
-            $('#card-featued').css('top','1880px');
-            $('#card-featued').css('width','488px');
-            $('#card-featued').css('right','109px');
+            $('#card-featued').css('position', 'absolute');
+            $('#card-featued').css('top', '1880px');
+            $('#card-featued').css('width', '488px');
+            $('#card-featued').css('right', '109px');
             $('#footer-of-header').css('margin-top', '500px');
         }
 
         // show section 2
-        if (scroll > 1875){
-            $('.section-games img').css('opacity','1');
-        }else{
-            $('.section-games img').css('opacity','0');
+        if (scroll > 1875) {
+            $('.section-games img').css('opacity', '1');
+        } else {
+            $('.section-games img').css('opacity', '0');
         }
     })
 
