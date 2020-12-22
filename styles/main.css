@@ -92,3 +92,22 @@
 .nav-main-items .nav-main-item:nth-child(5){
     margin-right: 0;
 }
+
+.header-logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 95px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.header-name {
+    position: relative;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    top: -50px;
+    left: 130px;
+    width: 100px;
+}

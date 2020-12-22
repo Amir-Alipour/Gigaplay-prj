@@ -15,8 +15,6 @@ $(function () {
             $('.nav-main-items').css('opacity', '0');
             $('.nav-main-items').css('display', 'none');
         }
-
-
     })
 
 
