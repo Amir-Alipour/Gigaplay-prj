@@ -17,7 +17,6 @@
 .header-title {
     position: absolute;
     color: #fff;
-    width: 450px;
     right: 150px;
     top: 230px;
 }
@@ -35,7 +34,7 @@
 
 .header-title button {
     color: #111;
-    padding: 15px 50px;
+    padding: 10px 50px;
     border-radius: 35px;
     margin-top: 20px;
     margin-left: 10px;
@@ -49,4 +48,47 @@
     background: transparent;
     border: 3px solid #fff;
     color: #fff;
+}
+
+.nav-main {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    background: #a3eee9;
+    right: 40px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.nav-main-items {
+    min-width: 100px;
+    height: 70px;
+    position: fixed;
+    right: 150px;
+    top: 50px;
+    background: #fff;
+    border-radius: 15px;
+    transition: all 0.5s;
+    padding: 25px;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+}
+
+.nav-main-items .nav-main-item {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav-main-items .nav-main-item:nth-child(1){
+    color: #000;
+}
+
+.nav-main-items .nav-main-item:nth-child(5){
+    margin-right: 0;
 }
