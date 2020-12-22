@@ -590,19 +590,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .modal-header {
-    background: #192a48;
+    background: #0d1626;
     color: #fff;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 .modal-body {
-    background: #192a48;
+    background: #0d1626;
     color: #fff;
 }
 
 .modal-footer {
-    background: #192a48;
+    background: #0d1626;
     color: #fff;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -613,3 +613,51 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* ------ MODAL -------- */
+
+.email-box {
+    position: relative;
+    color: #fff;
+    top: 400px;
+}
+
+.email-box p:nth-child(1) {
+    font-size: 6rem;
+    color: #a3eee9;
+}
+
+.email-box p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.email-box input {
+    width: 30%;
+    background: transparent;
+    height: 50px;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.email-box input:hover {
+    border: 3px solid #a3eee9;
+    background: rgba(255,255,255,0.1);
+}
+
+.email-box button {
+    color: #000;
+    padding: 10px 35px;
+    border-radius: 35px;
+    margin-left: 10px;
+    background: #a3eee9;
+    transition: all 0.4s;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.email-box button:hover {
+    background: #fff;
+    color: #000;
+}
