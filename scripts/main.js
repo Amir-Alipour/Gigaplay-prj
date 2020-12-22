@@ -81,7 +81,7 @@ $(function () {
 
     // ----------------------------------
 
-
+    $('.Shadower-section').load('shadower/index-of-shadower.html');
 
 
 

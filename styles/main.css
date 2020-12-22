@@ -59,13 +59,20 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid #a3eee9;
     font-size: 2rem;
 }
+.header-title button a {
+    text-decoration: none;
+     color: #000;
+     transition: all 0.4s;
+}
 
 .header-title button:hover {
     background: transparent;
     border: 3px solid #fff;
     color: #fff;
 }
-
+.header-title button:hover a{
+    color: #fff;
+}
 .nav-main {
     width: 70px;
     height: 70px;
@@ -385,4 +392,9 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid rgba(255, 255, 255, 0.3);
     color: #fff;
     background: none;
+}
+
+.Shadower-section {
+    width: 100%;
+    height: 100vh;
 }
