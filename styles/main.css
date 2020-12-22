@@ -533,7 +533,7 @@ body::-webkit-scrollbar-thumb {
 
 .work-whit-us-over {
     width: 100%;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 25px;
     height: 450px;
     padding: 50px;
@@ -545,10 +545,10 @@ body::-webkit-scrollbar-thumb {
     color: #a3eee9;
     font-size: 4rem;
     margin-top: 150px;
-    margin-top: 20px;  
+    margin-top: 20px;
 }
 
-.work-whit-us-over p:nth-child(2){
+.work-whit-us-over p:nth-child(2) {
     color: #fff;
     width: 33%;
     margin-top: 20px;
@@ -581,6 +581,7 @@ body::-webkit-scrollbar-thumb {
     margin: 0;
     width: 50%;
 }
+
 .modal-header button {
     position: absolute;
     right: 30px;
@@ -641,7 +642,7 @@ body::-webkit-scrollbar-thumb {
 
 .email-box input:hover {
     border: 3px solid #a3eee9;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .email-box button {
@@ -660,4 +661,51 @@ body::-webkit-scrollbar-thumb {
 .email-box button:hover {
     background: #fff;
     color: #000;
+}
+
+/* -------------- */
+
+.footer-wrapper {
+    width: 100%;
+    position: relative;
+    top: 1400px;
+    height: 300px;
+    background: #0b1321;
+}
+
+.footer-holder {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    border-top: 2px solid #c8dad8;
+}
+
+.footer-holder p:nth-child(1) {
+    font-size: 3rem;
+    color: #a3eee9;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.footer-holder p a {
+    color: #a3eee9;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer-holder p:nth-child(2) {
+    color: #fff;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.footer-holder p a:hover{
+    transform: scale(1.1em);
+}
+
+.footer-holder p:nth-child(3) {
+    color: #fff;
+    margin-top: 20px;
+
 }
