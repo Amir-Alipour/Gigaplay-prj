@@ -574,3 +574,42 @@ body::-webkit-scrollbar-thumb {
     color: #fff;
     background: none;
 }
+
+/* ------ MODAL -------- */
+
+.modal-title {
+    margin: 0;
+    width: 50%;
+}
+.modal-header button {
+    position: absolute;
+    right: 30px;
+    top: 27px;
+    color: #fff;
+
+}
+
+.modal-header {
+    background: #192a48;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.modal-body {
+    background: #192a48;
+    color: #fff;
+}
+
+.modal-footer {
+    background: #192a48;
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.modal-content {
+    border-radius: 18px;
+}
+
+/* ------ MODAL -------- */
