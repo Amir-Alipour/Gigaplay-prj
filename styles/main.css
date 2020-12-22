@@ -63,6 +63,7 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
      color: #000;
      transition: all 0.4s;
+     width: 100%;
 }
 
 .header-title button:hover {

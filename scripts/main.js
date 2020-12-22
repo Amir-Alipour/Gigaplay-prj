@@ -81,7 +81,9 @@ $(function () {
 
     // ----------------------------------
 
-    $('.Shadower-section').load('shadower/index-of-shadower.html');
+    $('.header-start-btn').click(function (e) { 
+        $('.header-start-link').trigger('click')
+    });
 
 
 
