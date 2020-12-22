@@ -21,11 +21,11 @@ $(function () {
     $(window).on('scroll', function () {
         console.log($(window).scrollTop());
     })
-    1815
 
     $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
 
+        // lock the card on scroll
         if(scroll > 925){
             $('#card-featued').css('position','fixed');
             $('#card-featued').css('top','100px');
@@ -39,17 +39,16 @@ $(function () {
             $('#footer-of-header').css('margin-top', '0');
         }
 
-1781
+        // move background whit scroll
         if (scroll > 1700) {
             $('.main-bg').css('position', 'absolute');
             $('.main-bg').css('top', '1700px');
-            $('.main-bg').css('background-repeat', 'repeat');
         } else {
             $('.main-bg').css('position', 'fixed');
             $('.main-bg').css('top', '0');
-            $('.main-bg').css('background-repeat', 'no-repeat');
         }
 
+        // gradient ellips
         if (scroll > 1780) {
             $('.befor-ellip').css('opacity', '0');
             setTimeout(() => {
@@ -62,6 +61,7 @@ $(function () {
             }, 500);
         }
 
+        // featured car go up whit scroll
         if(scroll > 1781){
             $('#card-featued').removeAttr('style');
             $('#card-featued').css('position','absolute');
@@ -70,7 +70,18 @@ $(function () {
             $('#card-featued').css('right','109px');
             $('#footer-of-header').css('margin-top', '500px');
         }
+
+        // show section 2
+        if (scroll > 1875){
+            $('.section-games img').css('opacity','1');
+        }else{
+            $('.section-games img').css('opacity','0');
+        }
     })
+
+    // ----------------------------------
+
+
 
 
 
