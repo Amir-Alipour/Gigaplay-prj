@@ -406,7 +406,7 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     top: 1400px;
     width: 100%;
-    height: 300vh;
+    height: 400vh;
     background: #0b1321;
 }
 
@@ -434,12 +434,14 @@ body::-webkit-scrollbar-thumb {
     top: 200px;
     left: 100px;
     width: 80%;
+    margin-bottom: 50px;
 }
 
 .album-item img {
     width: 90%;
     margin-left: 10%;
     border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
 }
 
 .album-item-DLbox {
@@ -461,10 +463,14 @@ body::-webkit-scrollbar-thumb {
     border: 5px solid #fff;
     margin-bottom: 20px;
 }
+.album-items-h1-fix{
+    margin: 0;
+    margin-left: -170px !important;
+}
 
 .album-item-DLbox h1 {
     margin: 0;
-    margin-left: -170px;
+    margin-left: -120px;
 }
 
 .album-item-DLbox p {
@@ -479,3 +485,4 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20px;
     width: 100px;
 }
+
