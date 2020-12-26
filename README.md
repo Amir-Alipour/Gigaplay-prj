@@ -1,5 +1,5 @@
 # Gigapaly-prj
-my practice gaming project
+my practice gaming project (only for 1600 x 900)
 ---------------------
 search https://amir-alipour.github.io/Gigaplay-prj/ on web whit (Vpn)
 ---------------------
